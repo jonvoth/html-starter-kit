@@ -1,0 +1,25 @@
+{
+  "name": "html-starter-kit",
+  "version": "0.0.1",
+  "description": "[description]",
+  "main": [],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "bootstrap": "~3.3.5"
+  },
+  "devDependencies": {},
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [],
+  "authors": [
+    "Jon Voth <jvoth@gmail.com>"
+  ],
+  "license": "",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ]
+}

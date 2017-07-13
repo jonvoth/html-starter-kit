@@ -1,0 +1,15 @@
+<script type="text/javascript" src="Scripts/main.min.js"></script> <!-- Load Core JS -->
+<script type="text/javascript">
+  // Test for modern browser using "Cut the Mustard" approach
+  if('querySelector' in document
+          && 'localStorage' in window
+          && 'addEventListener' in window) {
+    document.write('<' + 'script src="Scripts/enhancements.min.js" async defer><' + '/script>'); // Browser is modern, load enhanced JS
+  }
+
+  // Add feature tests here or in enhancements.js
+  // Modernizr is located at /Scripts/modernizr.min.js if needed,
+  // but individual feature tests are preferred
+</script>
+</body>
+</html>
